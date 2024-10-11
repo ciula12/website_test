@@ -4,6 +4,10 @@ body {
     color: #1d1d1d; 
 }
 
+h1,h2{
+    text-align: center;
+}
+
 
 .block {
     background-color: #fcfcfc;
@@ -11,6 +15,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 25px;
     margin: 40px auto;
+    max-width: 800px;
+}
+
+.blocktable {
+    background-color: #fcfcfc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    margin: 10px auto;
     max-width: 800px;
 }
 
@@ -32,9 +45,6 @@ textarea, .output {
     word-wrap: break-word; 
 }
 
-.controls {
-    gap: 10px; 
-}
 
 select {
     padding: 5px;
@@ -81,4 +91,16 @@ textarea:focus, .output:focus {
         margin: 40px auto;
         max-width: 80%;
     }
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+td, th {
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    text-align: center;
 }
